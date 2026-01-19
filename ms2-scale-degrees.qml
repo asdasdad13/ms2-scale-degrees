@@ -61,7 +61,6 @@ MuseScore {
           if (cursor.element && cursor.element.type === Element.CHORD) {
             var text = newElement(Element.LYRICS);
             
-            text.lineSpacing = 0.2;
             text.color = "#808080";
 
             text.text = "";
